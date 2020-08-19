@@ -8,11 +8,12 @@ STEP#1:
 	NSEI.csv
 	RUT.csv
 	SnP.csv
-
+	Create a folder named as models, to stored CNN classifier models, 100 models will be created.
 	First, execute the file trainCNN.ipynb, it will output afterDJIA.csv
 
 STEP#2: Secondly, execute DTF.ipynb, it a code for trading strategy using CNN as classifier.
 	It provides performance of the proposed system
+	NOTE: use model having best accuracy for testing purpose
 
 STEP#3: Now, we will compare our method with simple CNN, TF based methods.
         Execute CNN.ipynb, TF.ipynb
